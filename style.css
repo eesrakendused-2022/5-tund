@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+.task-completed{
+    background-color: lightgreen;
+}
+
+#inputContainer, #buttonContainer{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+input{
+    width: 25%;
+    height: 25px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+input[type="button"]{
+    width: 15%;
+    height: 37px;
+    padding: 10px;
+    background-color: aquamarine;
+    font-size: 17px;
+
+}
+
+input[type="button"]:hover{
+    background-color: aqua;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    padding-bottom: 12px;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-button{
+    background-color: red;
+    padding: 5px;
+}
